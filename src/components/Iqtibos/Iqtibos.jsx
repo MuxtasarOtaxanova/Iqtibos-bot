@@ -3,7 +3,7 @@ import "./Iqtibos.css";
 const BOT_TOKEN = "7842320404:AAEVItw5tHelpLSLPLfsNrVFG0HTd0NUcVs";
 
 const USER_ID = "7658202655";
-const CHAT_ID = "-4757928870";
+const CHAT_ID = "-4687805830";
 const Iqtibos = () => {
   const [iqtibos, setIqtibos] = useState();
   const [manzil, setManzil] = useState();
