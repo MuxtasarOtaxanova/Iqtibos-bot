@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Iqtibos.css";
-const BOT_TOKEN = "7622927413:AAGZqzFS2eqCdbC61681eVtxe5e-8ZIIwxA";
+const BOT_TOKEN = "7842320404:AAEVItw5tHelpLSLPLfsNrVFG0HTd0NUcVs";
 
 const USER_ID = "7658202655";
 const CHAT_ID = "-4757928870";
@@ -45,7 +45,6 @@ const Iqtibos = () => {
           />
         </div>
         <button>Jo'natish</button>
-        <p>!Iltimos tugmani bir marta bosing</p>
       </form>
     </div>
   );
