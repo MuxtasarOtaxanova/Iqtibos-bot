@@ -48,7 +48,7 @@ const Iqtibos = () => {
           />
         </div>
         <button>Jo'natish</button>
-        <p>! Jo'natish tugmasini bir marta bosing</p>
+      
       </form>
     </div>
   );
