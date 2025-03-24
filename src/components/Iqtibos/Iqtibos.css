@@ -1,0 +1,73 @@
+.iqtibos {
+  background: url("https://source.unsplash.com/1600x900/?nature,abstract")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iqtibos form {
+  background: rgba(0, 0, 0, 0.5); /* Qoramtir shaffof fon */
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Chiroyli chegarasi */
+}
+
+.iqtibos h2,
+.iqtibos p {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.iqtibos textarea,
+.iqtibos input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Ko‘rinadigan chiziqlar */
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.iqtibos textarea::placeholder,
+.iqtibos input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.iqtibos textarea {
+  resize: none;
+  height: 120px;
+}
+
+.iqtibos button {
+  margin-top: 15px;
+  padding: 12px 18px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Tugmada chiziq */
+}
+
+.iqtibos button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Mobil uchun moslashuv */
+@media (max-width: 600px) {
+  .iqtibos form {
+    width: 95%;
+  }
+}
