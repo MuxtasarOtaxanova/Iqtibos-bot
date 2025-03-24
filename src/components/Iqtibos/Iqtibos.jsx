@@ -4,6 +4,9 @@ const BOT_TOKEN = "7842320404:AAEVItw5tHelpLSLPLfsNrVFG0HTd0NUcVs";
 
 const USER_ID = "7658202655";
 const CHAT_ID = "-4687805830";
+let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${text}`;
+
+console.log("URL:", url);
 const Iqtibos = () => {
   const [iqtibos, setIqtibos] = useState();
   const [manzil, setManzil] = useState();
@@ -45,6 +48,7 @@ const Iqtibos = () => {
           />
         </div>
         <button>Jo'natish</button>
+        <p>! Jo'natish tugmasini bir marta bosing</p>
       </form>
     </div>
   );
